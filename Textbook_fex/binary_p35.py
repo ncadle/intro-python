@@ -9,6 +9,5 @@ for i in binary[::-1]:
     if i == '1':
         decimal += 2**x   
     x += 1
-    print(i,x)
 print(decimal)        
         
